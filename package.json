@@ -5,9 +5,9 @@
   "description": "laracasts wabpack-learning",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack",
-    "production": "NODE_ENV=production webpack",
-    "watch": "npm run build -- --watch"
+    "dev": "node_modules/.bin/webpack",
+    "production": "NODE_ENV=production node_modules/.bin/webpack",
+    "watch": "npm run dev -- --watch"
   },
   "keywords": [],
   "license": "ISC",
